@@ -1,6 +1,18 @@
 const router = require('express').Router()
 
-router.get('/', (req, res) => {
+router.get('/edit', (req, res) => {
+    res.render('places/edit')
+})
+
+router.get('/newPage', (req, res) => {
+    res.render('places/newPage')
+})
+
+router.get('/show', (req, res) => {
+    res.render('places/show')
+})
+
+router.get('/:id', (req, res) => {
     let places = [{
         name: 'H-Thai-ML',
         city: 'Seattle',
@@ -16,18 +28,6 @@ router.get('/', (req, res) => {
       }]
 
     res.render('places/index', {places})
-})
-
-router.get('/edit', (req, res) => {
-    res.render('places/edit')
-})
-
-router.get('/newPage', (req, res) => {
-    res.render('places/newPage')
-})
-
-router.get('/show', (req, res) => {
-    res.render('places/show')
 })
 
 module.exports = router
