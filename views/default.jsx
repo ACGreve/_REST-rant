@@ -31,7 +31,7 @@ function Def(html) {
         <div className="container">
           {html.children}
         </div>
-      </div>>
+      </div>
     </body>
 
     </html>

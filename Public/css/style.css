@@ -47,3 +47,10 @@ main {
   background-color: white;
 }
 
+.info{
+  padding-top: 2vw;
+  margin: auto;
+}
+.comment{
+  padding-bottom: .5vw;
+}
