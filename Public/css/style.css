@@ -10,3 +10,40 @@ img{
 .homeImg{
   width: 60%;
 }
+
+nav {
+  background-color: cornflowerblue;
+  padding: 10px;
+}
+
+nav ul {
+   text-decoration: none;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 25px;
+}
+
+nav a {
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: pink;
+}
+
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+main {
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: white;
+}
+
