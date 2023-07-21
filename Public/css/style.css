@@ -51,6 +51,13 @@ main {
   padding-top: 2vw;
   margin: auto;
 }
+
 .comment{
   padding-bottom: .5vw;
+}
+
+.button{
+  width: 10em;
+  margin: 1em;
+  display: block;
 }
