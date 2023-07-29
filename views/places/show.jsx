@@ -43,10 +43,10 @@ function show (data) {
 
               <div className="row justify-content-center info">    
 
-                <a href={`/places/${data._id}/edit`} className="btn btn-warning col-sm-3"> 
+                <a href={`/places/${data.place._id}/edit`} className="btn btn-warning col-sm-3"> 
                   Edit
                 </a>  
-                <form method="POST" action={`/places/${data._id}?_method=DELETE`}> 
+                <form method="POST" action={`/places/${data.place._id}?_method=DELETE`}> 
                   <button type="submit" className="btn btn-danger col-sm-3">
                     Delete
                   </button>
