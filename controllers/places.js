@@ -16,7 +16,6 @@ router.post('/', (req, res) => {
     db.Place.create(req.body)
     .then(() => {
         res.redirect('/places')
-        if (!req.body.pic) req.body.pic= undefined
     })
     .catch(err => {
         console.log('err', err)
